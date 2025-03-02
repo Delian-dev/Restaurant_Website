@@ -1,12 +1,4 @@
 [
     {"username": "user1", "password":"password1"},
-    {"username": "delian", "password":"delian04"},
-    {"username": "horia", "password":"dacia4life"},
-    {"username": "anita", "password":"crusuxoxo"},
-    {"username": "andrei", "password":"patrunjel"},
-    {"username": "balaur", "password":"bahoi"},
-    {"username": "luca szocs", "password":"scoth"},
-    {"username": "luca cuclea", "password":"LondonIsWhite"},
-    {"username": "teo leahu", "password":"elBoss123"},
-    {"username": "cristian", "password":"galatiJoker"}
+    {"username": "delian", "password":"delian04"}
 ]
