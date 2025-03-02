@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main{
+    position: relative;
+    overflow: hidden;
+}
+
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    padding: 20px;
+    background-color:  #880909;
+    justify-content:space-around;
+    align-items: center;
+}
+
+header >h2,a{
+    text-align: center;
+    padding: 10px;
+    font-size: 22px;
+    color:antiquewhite;
+    background-color:  #880909;
+    font-family: "Playfair Display", serif;
+    font-style: oblique;
+}
+
+header>a:hover{
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: #B22222;
+    background-color: aliceblue;
+    opacity: 0.8;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(245, 235, 235, 0.8);
+    min-height: calc(100vh - 120px); 
+}
+
+main h1 {
+    font-size: 36px;
+    color: #880909;
+    margin-bottom: 20px;
+}
+
+main p {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #880909;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+main button:hover {
+    background-color: #B22222;
+}
+
+footer{
+    background-color: #880909;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    animation: marquee 12s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}

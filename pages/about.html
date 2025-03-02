@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../resources/favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styling/about-styles.css">
+    <script src="../scripts/about.js"></script>
+    <title>DelBistro:About Us</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-link" href="./home.html">Home</a>
+            <a class="nav-link" href="./food_menu.html">Food Menu</a>
+            <a class="nav-link" href="./drinks_menu.html">Drinks Menu</a>
+            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="./login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+    <main>
+        <h1 id="about-title">Find more about DelBistro</h1>
+        <div class="about-sections">
+            <section class="history-section">
+                <div class="history-desc">
+                    <h3>We take pride in our almost 75 years history</h3>
+                    <p>Opening its gates in 1950, DelBistro quickly became one of the most recognizable restaurants in Romania. Since the beggining, our mission was to bring on the table the best dishes from around the world. It was a very difficult mission, especially for that period, but our passion for food came on top regardless of the difficulties.
+                         As years passed, a lot of famous people have tested our dishes and each one of them was pleasantly surprised. With that being said, we can't wait to have you come here, and be a part of our ongoing history.
+                    </p>
+                </div>
+                <figure class="history-figure">
+                    <img src="../resources/about-history-photo.webp" alt="Photo of old restaurant interior">
+                    <figcaption>DelBistro circa 1960</figcaption>
+                </figure>
+            </section>
+            <section class="culinary-team">
+                <img src="../resources/about-chef_cooking.jpg" alt="Photo of a chef preparing a dish">
+                <div class="team-desc">
+                    <h3>We cannot omit the people that are making this possible</h3>
+                    <p>We are renowned for our dishes, but very few people actually know the mastermind behind the kitchen's doors. Chef Leahu Teodor, proud owner of 2 Michelin Stars, and his team consisting of 9 people, make all the magic happen.
+                        <br>
+                        &nbsp;&nbsp;
+                        The partnership between DelBistro and Leahu has started in 2004 and has only been growing stronger since. It would be dishonorable to try to put into words what our Chef can achieve, because they wouldn't be enough. Therefore, we will let the food speak for ourselves.
+                    </p>
+                </div>
+            </section>
+            <section class="awards">
+                <div class="awards-desc">
+                    <h3>Our work hasn't gone unnoticed</h3>
+                    <p>In case you still had some doubts regarding our food's level, we proudly present a part of our awards. The most important ones we possess are:</p>
+                    <ul id="awards-ul"></ul>
+                    <!-- <ul>
+                        <li>Horeca Awards: Best Romanian Bistro </li>
+                        <li>San Pellegrino World's 50 Best Restaurants</li>
+                        <li>James Beard Award: Outstanding Hospitality</li>
+                        <li>Wine Spectator: Award of Excellence</li>
+                    </ul> -->
+                    <div class="awards-btns">
+                        <button id="awards-btn">Add a new award</button>
+                        <button id="clear-awards">Clear awards</button>
+                    </div>
+                </div>
+                <img src="../resources/about-awards.jpg" alt="Wall of awards">
+            </section>
+            <section class="delivery">
+                <div class="delivery-desc">
+                    <h3>DelBistro is now delivering across all Bucharest!</h3>
+                    <p>&nbsp;&nbsp; Even though we highly recommend to come to our location, we understand that sometimes this is not a possibility. 
+                        We don't want anyone to be unable to test our food, so now through Tazz and Glovo you can savour our dishes wherever you are.
+                    </p>
+                    <br>
+                    <p>P.S. Click anywhere on this section to stop/start the scooter</p>
+                    <div class="delivery-btns">
+                        <button id="tazz-btn">Order from Tazz</button>
+                        <button id="glovo-btn">Order from Glovo</button>
+                    </div>
+                </div>
+                <div class="delivery-scooter">
+                    <div class="scooter-lines">
+                        <hr id="line1" class="wavy-hr">
+                        <hr id="line2" class="wavy-hr">
+                        <hr id="line3" class="wavy-hr">
+                        <hr id="line4" class="wavy-hr">
+                    </div>
+                    <img src="../resources/takeaway-scooter-Photoroom.png-Photoroom.png" alt="Scooter icon">
+                </div>
+            </section>
+            <section class="socials">
+                <div class="socials-desc">
+                    <h3>Keep up with everything that is new</h3>
+                    <p>&nbsp;&nbsp;  Follow us on each of these social media platforms to be the first one that finds out about our changes or events.</p>
+                </div>
+                <div class="media-icons">
+                    <a href="reservations.html" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-youtube"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <!-- <p>&copy; DelBistro  <script>document.write(new Date().getFullYear());</script>. All rights reserved.</p> -->
+    </footer>
+</body>
+</html>

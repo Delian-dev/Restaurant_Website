@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../resources/favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styling/drinks_menu-styles.css">
+    <script src="../scripts/drinks_menu.js"></script>
+    <title>DelBistro:Drinks Menu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-link" href="./home.html">Home</a>
+            <a class="nav-link" href="./food_menu.html">Food Menu</a>
+            <a class="nav-link" href="#">Drinks Menu</a>
+            <a class="nav-link" href="./about.html">About Us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="./login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+    <main>
+        <div class="bg-image"></div>
+        <aside class="aside-menu">
+            <h2>Our drinks are here to complete your experience</h2>
+            <div class="aside-links">
+                <a id="aside-title" href="#">Drinks Sections</a>
+                <div class="dropdown-menu">
+                    <a href="#cocktail-intro">Cocktails</a>
+                    <a href="#wine-intro">Wines</a>
+                    <a href="#craft_beers-intro">Craft Beers</a>
+                </div>
+            </div>
+        </aside>
+        <div class="category-container">
+            <h1 class="category-title" id="cocktail-intro">- Our renowned cocktails -</h1>
+        </div>
+        <div class="drinks-btns">
+            <button id="add-drink">Add a new drink</button>
+            <button id="delete-drink">Delete drink roulette</button>
+        </div>
+        <section id="cocktails">
+            <div class="drink-item">
+                <div class="item-presentation">
+                    <h3>Cosmopolitan</h3>
+                    <span>Price: 15$</span>
+                </div>
+                <img src="../resources/Cocktails-Cosmopolitan.jpg" alt="Photo of Cosmoplitan drink">
+                <div class="item-desc">
+                    <span>Ingredients:</span>
+                    <ul>
+                        <li>Cranberry juice</li>
+                        <li>Lime Juice</li>
+                        <li>Triple Sec</li>
+                        <li>Citron Vodka</li>
+                    </ul>
+                    <span>Serving Size:200ml</span>
+                </div>
+            </div>
+            <div class="drink-item">
+                <div class="item-presentation">
+                    <h3>Amaretto Sour</h3>
+                    <span>Price: 13$</span>
+                </div>
+                <img src="../resources/Cocktails-AmarettoSour.jpg" alt="Photo of Amaretto Sour">
+                <div class="item-desc">
+                    <span>Ingredients:</span>
+                    <ul>
+                        <li>Amaretto</li>
+                        <li>Lemon Juice</li>
+                        <li>Orange</li>
+                        <li>Egg White</li>
+                    </ul>
+                    <span>Serving Size:250ml</span>
+                </div>
+            </div>
+            <div class="drink-item">
+                <div class="item-presentation">
+                    <h3>Negroni</h3>
+                    <span>Price: 12$</span>
+                </div>
+                <img src="../resources/Cocktails-Negroni.jpg" alt="Photo of Negroni">
+                <div class="item-desc">
+                    <span>Ingredients:</span>
+                    <ul>
+                        <li>Gin</li>
+                        <li>Campari</li>
+                        <li>Sweet Vermouth</li>
+                        <li>Orange Peel</li>
+                    </ul>
+                    <span>Serving Size:250ml</span>
+                </div>
+            </div>
+            <div class="drink-item">
+                <div class="item-presentation">
+                    <h3>Vodka Martini</h3>
+                    <span>Price: 14$</span>
+                </div>
+                <div class="item-desc">
+                    <span>Ingredients:</span>
+                    <ul>
+                        <li>Vodka</li>
+                        <li>Dry Vermouth</li>
+                        <li>Lemon</li>
+                        <li>Green Olive</li>
+                    </ul>
+                    <span>Serving Size:200ml</span>
+                </div>
+                <img src="../resources/Cocktails-VodkaMartini.jpg" alt="Photo of Vodka Martini">
+            </div>
+        </section>
+        <div class="category-container">
+            <h1 class="category-title" id="wine-intro">- Our Wines -</h1>
+        </div>
+        <section id="wines">
+            <div class="wine-intro">
+                <h3>We have the best wine collection in Romania. Come to our place to convince yourself.</h3>
+                <img src="../resources/Wine-Glasses.jpg" alt="Photo of wine glasses">
+            </div>
+            <div class="wine-extra">
+                <h3>We highly recommend our red wines, made from the best grapes in the south of France</h3>
+                <img src="../resources/Wine-Red.jpg" alt="Glass of red wine">
+            </div>
+        </section>
+        <div class="category-container">
+            <h1 class="category-title" id="craft_beers-intro">- Craft Beers -</h1>
+        </div>
+        <section id="craft_beers">
+            <div class="beers-intro">
+                <h3>If you consider that what we presented above is not for you, do not despair. We have a vast collection of Craft Beers for every taste</h3>
+                <img src="../resources/CraftBeers.webp" alt="Photo of craft beers">
+            </div>
+            <div class="beers-extra">
+                <h3>We also serve draught beer from our huge barrels</h3>
+                <img src="../resources/CraftBeer.jpg" alt="Glass of craft beer being filled">
+            </div>
+        </section>
+        <hr>
+    </main>
+    <footer>
+        <!-- <p>&copy; DelBistro  <script>document.write(new Date().getFullYear());</script>. All rights reserved.</p> -->
+    </footer>
+</body>
+</html>

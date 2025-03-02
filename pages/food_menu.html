@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="../resources/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../resources/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="../resources/favicon_io/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Sriracha&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../styling/food_menu-styles.css">
+    <script src="../scripts/food_menu.js"></script>
+    <title>DelBistro:Food Menu</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav-link" href="./home.html">Home</a>
+            <a class="nav-link" href="#">Food Menu</a>
+            <a class="nav-link" href="./drinks_menu.html">Drinks Menu</a>
+            <a class="nav-link" href="./about.html">About Us</a>
+            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="./login.html"><i class="fa fa-sign-in" aria-hidden="true"></i></a>
+        </nav>
+    </header>
+    <main>
+        <div class="bg-image"></div>
+        <aside class="aside-menu">
+            <h1>Our food categories are waiting for you to take a look</h1>
+            <div class="aside-links">
+                <a href="#breakfast-title">Breakfast</a>
+                <a href="#appetizers-title">Appetizers</a>
+                <a href="#soups-title">Soups</a>
+                <a href="#pasta-title">Pasta</a>
+                <a href="#main-course-title">Main Courses</a>
+                <a href="#dessert-title">Dessert</a>
+            </div>
+        </aside>
+        <div id="custom-alert">Item uploading...</div>
+        <section class="food-menu">
+            <div class="category-container">
+                <h1 class="category-title" id="breakfast-title">- Breakfast -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="breakfast-btn">Add a breakfast item</button>
+                <button id="delete-breakfast">Delete a breakfast item</button>
+            </div>
+            <div id="breakfast">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Bagel Sandwich</h3>
+                        <span>Price: 10$</span>
+                    </div>
+                    <img src="../resources/Breakfast-BagelSandwich.jpg" alt="Photo of a Bagel Sandwich">
+                    <div class="item-desc">
+                        <p>Served between: 9:00-12:00</p>
+                        <span>Serving Size:250g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Benedict Eggs</h3>
+                        <span>Price: 15$</span>
+                    </div>
+                    <img src="../resources/Breakfast-OuaBenedict.jpg" alt="Photo of Benedict Eggs">
+                    <div class="item-desc">
+                        <p>Served between: 9:00-12:00</p>
+                        <span>Serving Size:200g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Scrambled Eggs</h3>
+                        <span>Price: 12$</span>
+                    </div>
+                    <img src="../resources/Breakfast-ScrambledEggs.jpg" alt="Photo of Scrambled Eggs">
+                    <div class="item-desc">
+                        <p>Served between: 9:00-12:00</p>
+                        <span>Serving Size:300g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Croissant with Butter and Jam</h3>
+                        <span>Price: 8$</span>
+                    </div>
+                    <img src="../resources/Breakfast-Croissant.jpg" alt="Photo of a Croissant">
+                    <div class="item-desc">
+                        <p>Served between: 9:00-12:00</p>
+                        <span>Serving Size:110g</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-container">
+                <h1 class="category-title" id="appetizers-title">- Appetizers -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="appetizers-btn">Add an appetizer item</button>
+                <button id="delete-appetizer">Delete an appetizer item</button>
+            </div>
+            <div id="appetizers">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Bruschetta Tuna</h3>
+                        <span>Price: 25$</span>
+                    </div>
+                    <img src="../resources/Appetizer-TunaBruschetta.jpeg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-22:00</p>
+                        <span>Estimated quantity:350g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Salmon Tartar</h3>
+                        <span>Price: 40$</span>
+                    </div>
+                    <img src="../resources/Appetizer-SalmonTartar.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-22:00</p>
+                        <span>Estimated quantity:100g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Cheese Platter</h3>
+                        <span>Price: 120$</span>
+                    </div>
+                    <img src="../resources/Appetizer-CheesePlatter.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-22:00</p>
+                        <span>Estimated quantity:750g</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-container">
+                <h1 class="category-title" id="soups-title">- Soups -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="soups-btn">Add a soup item</button>
+                <button id="delete-soups">Delete a soup item</button>
+            </div>
+            <div id="soups">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Mushroom Cream Soup</h3>
+                        <span>Price: 16$</span>
+                    </div>
+                    <img src="../resources/Soups-MushroomCream.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:250g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Seafood Soup</h3>
+                        <span>Price: 30$</span>
+                    </div>
+                    <img src="../resources/Soup-Seafood.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:350g</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-container">
+                <h1 class="category-title" id="pasta-title">- Pasta -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="pasta-btn">Add a pasta item</button>
+                <button id="delete-pasta">Delete a pasta item</button>
+            </div>n>
+            <div id="pasta">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Pasta Carbonara</h3>
+                        <span>Price: 20$</span>
+                    </div>
+                    <img src="../resources/Pasta-Carbonara.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:400g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Tagliatelle with Salmon</h3>
+                        <span>Price: 24$</span>
+                    </div>
+                    <img src="../resources/Pasta-SalmonTagliatelle.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:450g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Pasta With Shrimp</h3>
+                        <span>Price: 26$</span>
+                    </div>
+                    <img src="../resources/Pasta-ShrimpPasta.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:450g</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-container">
+                <h1 class="category-title" id="main-course-title">- Main-Course -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="mainCourse-btn">Add a main-course item</button>
+                <button id="delete-mainCourse">Delete a main-course item</button>
+            </div>
+            <div id="main-course">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Black Angus Burger</h3>
+                        <span>Price: 25$</span>
+                    </div>
+                    <img src="../resources/MainCourse-Burger.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:600g</span>
+                        <span>Served with French Fries/Wedges (120g)</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Grilled Chicken Breast</h3>
+                        <span>Price: 15$</span>
+                    </div>
+                    <img src="../resources/MainCourse-ChickenBreast.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:350g</span>
+                        <span>Served with Grilled Vegetables and Gorgonzola Sauce (120g/20g)</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Duck Breast</h3>
+                        <span>Price: 30$</span>
+                    </div>
+                    <img src="../resources/MainCourse-DuckBreast.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:300g</span>
+                        <span>Served with Mashed Potatoes and Orange Sauce (200g/20g)</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Medium-Rare Steak</h3>
+                        <span>Price: 45$</span>
+                    </div>
+                    <img src="../resources/MainCourse-Steak.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:550g</span>
+                        <span>Served with Fries and Bearnaise Sauce(150g/30g)</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Filet Mignon</h3>
+                        <span>Price: 40$</span>
+                    </div>
+                    <img src="../resources/MainCourse-FiletMignon.webp" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 12:00-23:00</p>
+                        <span>Estimated quantity:400g</span>
+                        <span>Served with Fries and Red Wine Sauce(150g/30g)</span>
+                    </div>
+                </div>
+            </div>
+            <div class="category-container">
+                <h1 class="category-title" id="dessert-title">- Dessert -</h1>
+            </div>
+            <div class="category-btns">
+                <button id="dessert-btn">Add a dessert item</button>
+                <button id="delete-dessert">Delete a dessert item</button>
+            </div>
+            <div id="dessert">
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Chocolate Cherry Cake</h3>
+                        <span>Price: 12$</span>
+                    </div>
+                    <img src="../resources/Dessert-ChocolateCherryCake.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 13:00-23:00</p>
+                        <span>Estimated quantity:200g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Crepes</h3>
+                        <span>Price: 10$</span>
+                    </div>
+                    <img src="../resources/Dessert-Crepes.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 13:00-23:00</p>
+                        <span>Estimated quantity:250g</span>
+                        <span>Served with Strawberry Jam or Nutella</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>French Toast</h3>
+                        <span>Price: 16$</span>
+                    </div>
+                    <img src="../resources/Dessert-FrenchToast.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 13:00-23:00</p>
+                        <span>Estimated quantity:450g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Lava Cake with Vanilla Ice Cream</h3>
+                        <span>Price: 15$</span>
+                    </div>
+                    <img src="../resources/Dessert-LavaCake.webp" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 13:00-23:00</p>
+                        <span>Estimated quantity:150g/100g</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <div class="item-presentation">
+                        <h3>Panna Cotta</h3>
+                        <span>Price: 20$</span>
+                    </div>
+                    <img src="../resources/Dessert-PannaCottajpg.jpg" alt="">
+                    <div class="item-desc">
+                        <p>Served between: 13:00-23:00</p>
+                        <span>Estimated quantity:150g</span>
+                    </div>
+                </div>
+            </div>
+            <hr>
+        </section>
+    </main>
+    <footer>
+        <!-- <p>&copy; DelBistro  <script>document.write(new Date().getFullYear());</script>. All rights reserved.</p> -->
+    </footer>
+</body>
+</html>

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(245, 235, 235, 0.8);
+    min-height: calc(100vh - 120px); 
+}
+
+h2 {
+    font-size: 28px;
+    color: #880909;
+    margin:10px 10px;
+}
+
+h3 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+header{
+    padding: 20px;
+    background-color:  #880909;
+    text-align: center;
+}
+
+
+header h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+    color: antiquewhite;
+    background-color: #880909;
+    font-family: "Playfair Display", serif;
+    font-style: oblique;
+}
+
+footer {
+    background-color: #880909;
+    color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    animation: marquee 12s linear infinite; /* Adjust animation duration as needed */
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
